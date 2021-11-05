@@ -1,0 +1,26 @@
+@import "~animate.css/animate.css";
+.bold{
+    font-weight: bold !important;
+}
+
+.post-image{
+    border-radius: 20px !important;
+    overflow: hidden;
+}
+
+.avatar-img{
+    border-radius: 30% !important;
+    overflow: hidden;
+}
+.link-tag{
+    display: flex;
+}
+
+.link-tag ion-avatar{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.link-tag ion-label{
+    padding: 10px;
+}
