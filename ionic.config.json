@@ -1,0 +1,7 @@
+{
+  "name": "skillzk",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
