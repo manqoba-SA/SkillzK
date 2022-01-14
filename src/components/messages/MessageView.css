@@ -1,0 +1,68 @@
+.messages {
+  padding: 10px;
+  margin-top: 20px;
+  white-space: pre-wrap;
+}
+
+.other-messages {
+  background: #9969d3;
+  color: #fff;
+  border-radius: 8px 8px 8px 0px;
+}
+
+.my-messages {
+  background: #bd94f1;
+  color: #fff;
+  border-radius: 8px 8px 0px 8px;
+}
+
+.time {
+  float: right;
+}
+.message-input {
+  background: #ffffff;
+  border: 1px solid #d1d1d6;
+  box-sizing: border-box;
+  border-radius: 16.5px;
+  width: 100%;
+  resize: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.row-items-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.send-icon {
+  --padding-end: 0.4em;
+  --padding-top: 0.2em;
+}
+
+.no-padding {
+  margin-top: 10px !important;
+  /* margin-bottom: 2.5px !important; */
+}
+
+.chats-content {
+  height: 79% !important;
+}
+
+.chat-input {
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  bottom: 0;
+  height: 65px;
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+  .chats-content {
+    height: 70% !important;
+  }
+  .chat-input {
+    height: 60px;
+  }
+}
