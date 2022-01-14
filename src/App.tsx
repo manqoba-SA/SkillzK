@@ -9,7 +9,6 @@ import Register from "./components/firstScreens/Register";
 import FreelancerDetails from "./components/firstScreens/FreelancerDetail";
 import FinishRegisteration from "./components/firstScreens/FinishRegisteration";
 import ClientLocation from "./components/firstScreens/ClientLocation";
-import ForgotPassword from "./components/firstScreens/ForgotPassword";
 import { AuthContext, useAuthInit } from "./auth";
 
 /* Core CSS required for Ionic components to work properly */
@@ -58,9 +57,6 @@ const App: React.FC = () => {
             </Route>
             <Route exact path="/slides">
               <Slides />
-            </Route>
-            <Route exact path="/forgotpassword">
-              <ForgotPassword />
             </Route>
             <Route exact path="/Register">
               <Register />
