@@ -1,0 +1,61 @@
+.user-name{
+    font-size:1.5rem ;
+}
+.secondary-color{
+    color: #999999;
+}
+.d-flex{
+    display: flex;
+}
+
+
+.rating-left{
+    position: relative;
+}
+
+.rating-right{
+    position: relative;
+    left: 15%;
+}
+
+.ratings{
+    display: flex;
+}
+
+.posts-container{
+    border: 1.5px solid #999999;
+    border-radius: 10px;
+}
+.rate{
+    padding: 0;
+}
+
+.posts{
+    border: 1.5px solid #999999;
+    border-radius: 10px;
+}
+
+.postImage{
+    object-fit: cover;
+    border: 1.5px solid #999999;
+    border-radius: 10px !important;
+    height: 80px;
+    width: 120px;
+}
+
+.right-icons{
+    position: relative;
+    top: 15%;
+    left: 40%
+}
+
+p{
+    padding: 0 0 !important; 
+}
+@media screen and (device-aspect-ratio: 40/71) {
+    .rating-right{
+        position: relative;
+        left: 10%;
+    }
+}
+
