@@ -1,0 +1,9 @@
+.chat-list-items{
+    --background: rgba(255, 255, 255, 0.397) !important;
+}
+
+.from-day-messages{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+}

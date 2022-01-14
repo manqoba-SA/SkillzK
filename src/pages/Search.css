@@ -1,0 +1,52 @@
+.search-ion-slide ion-card{
+    width: 120px;
+    height: 120px !important;
+    box-shadow: none
+    
+
+}
+
+.search-ion-slide{
+    width: 120px !important;
+    height: 120px !important;
+}
+
+.search-ion-slide ion-card img{
+    width: 50px !important;
+    height: 50px !important;
+    margin: 0 !important;
+}
+
+
+.search-ion-slide ion-card p{
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.box1{
+    background-color: #9969D3;
+    color: #fff !important;
+}
+
+.box2{
+    background-color: #FE6250;
+    color: #fff !important;
+}
+.box3{
+    background-color: #B18CFE;
+    color: #fff !important;
+}
+.box4{
+    background-color: #EE719E;
+    color: #fff !important;
+}
+
+
+
+.user{
+    display: flex;
+}
+
+.user-stars{
+    margin-left: 25px;
+}
